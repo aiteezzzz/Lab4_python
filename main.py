@@ -26,7 +26,7 @@ def create_file(file_name):
         file.close()
         print(f"Дані записано у файл {file_name}.")
 
-
+# Part B - processing words and creating TF22_2
 def process_file(input_file, output_file):
     file_in = open_file(input_file, "r")
 
