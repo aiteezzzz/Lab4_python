@@ -68,7 +68,7 @@ def process_file(input_file, output_file):
     file_out.close()
     print(f"Результат записано у файл {output_file}.")
 
-
+# Part C - displaying results from TF22_2
 def print_file(file_name):
     file = open_file(file_name, "r")
 
